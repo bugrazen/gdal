@@ -13,14 +13,11 @@ Coğrafi Bilgi Sistemi (CBS) verilerini okumak, yazmak, işlemek için kullanıl
 ## Örnek kodlar
 
 ```
-ogr2ogr -f PostgreSQL PG:"user=youtube host=localhost password=123 dbname=yt port=5432 schemas=public"
-C:\Users\bugra\Desktop\ms-buildings\ms-building-footprints-turkiye.gpkg 120323223 -nln 120323223_gdal -progress
+ogr2ogr -f PostgreSQL PG:"user=youtube host=localhost password=123 dbname=yt port=5432 schemas=public" C:\Users\bugra\Desktop\ms-buildings\ms-building-footprints-turkiye.gpkg 120323223 -nln 120323223_gdal -progress
 ```
 ```
-ogr2ogr -f PostgreSQL PG:"user=youtube host=localhost password=123 dbname=yt port=5432 schemas=gdal"
-ms-building-footprints-turkiye.gpkg -progress
+ogr2ogr -f PostgreSQL PG:"user=youtube host=localhost password=123 dbname=yt port=5432 schemas=gdal" ms-building-footprints-turkiye.gpkg -progress
 ```
 ```
-ogr2ogr -f PostgreSQL PG:"user=youtube host=localhost password=123 dbname=yt port=5432 schemas=public"
-C:\Users\bugra\Desktop\turkey-latest-free.shp\gis_osm_roads_free_1.shp -nln osm_roads_gdal -progress
+ogr2ogr -f PostgreSQL PG:"user=youtube host=localhost password=123 dbname=yt port=5432 schemas=public" C:\Users\bugra\Desktop\turkey-latest-free.shp\gis_osm_roads_free_1.shp -nln osm_roads_gdal -progress
 ```
