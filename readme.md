@@ -6,7 +6,7 @@ Coğrafi Bilgi Sistemi (CBS) verilerini okumak, yazmak, işlemek için kullanıl
 -----
 
 
-#### [Kurulum ve örnek kodların kullanımı hakkında daha fazla bilgi için videomu izleyebilirsiniz](https://www.youtube.com/watch?v=dF_2r2awycQ)
+#### [Kurulum ve örnek kodların kullanımı hakkında daha fazla bilgi için videomu izleyebilirsiniz](https://www.youtube.com/watch?v=UzQbdMha7_E)
 
 -----
 
